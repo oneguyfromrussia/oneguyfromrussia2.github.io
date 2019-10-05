@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+} 
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+.header-top{
+    height: 300px;
+    background: linear-gradient(180deg, #000, transparent);
+    transition: 1s;
+    display: flex;
+    justify-content: space-around;
+}
+.header-top:hover{
+    height: 400px;
+}
+   
+.mainBLK{
+    font-size: 20px;
+    line-height: 38px;
+    position: absolute;
+    width: 748px;
+    height: 13px;
+    right: 216px;
+    top: 63px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #f7f7f7;
+
+}
+.mainBLK a{
+    color: #f7f7f7;
+    transition: all 0.2s;
+}
+.mainBLK a:hover{
+    color: #FDB220;
+    
+}
+.logo{
+    height: 147px;
+    width: 147px;
+    position: absolute;
+    left: 52px;
+    top: 3px;
+    background: url(img/VP\ COPPERS\ LOGO\ white.png);
+}
